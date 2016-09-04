@@ -239,7 +239,7 @@ a.<tab>
 {: .python}
 
 
-> ### EXERCISE 1 - Introducing logistic growth
+> ### Introducing logistic growth
 >
 > Throughout this lesson, we will successively build towards a program that
 > will calculate the logistic growth of a population of bacteria in a petri
@@ -267,3 +267,4 @@ a.<tab>
 > 1. Test whether `n2` is larger than 20, and print out "n2 more than 20: " followed by the answer (either True or False).
 >
 > 2. Figure out how to test whether `n2` is an integer (a mathematical integer, not necessarily whether it is an integer type) (HINT: look at the methods of `n2` by typing `n2.` and pressing tab.)
+{: .challenge}
