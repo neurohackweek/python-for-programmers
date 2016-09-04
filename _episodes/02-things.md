@@ -117,6 +117,7 @@ combination of a string (our variable `s2`) and an integer (the number 3).
 {: .callout}
 
 For exponentiation, use `**`, not `^` (it is an operator in Python, but it is the [bitwise xor operator](http://stackoverflow.com/a/2451393/3532933)):
+
 ~~~
 print(2 ** 3)
 print(2 ^ 3)
@@ -242,7 +243,6 @@ a.<tab>
 ~~~
 {: .python}
 
-
 > ### Introducing logistic growth
 >
 > Throughout this lesson, we will successively build towards a program that
@@ -251,7 +251,7 @@ a.<tab>
 >
 > A commonly used discrete time equation for logistic population growth is:
 >
->    $$n[t+1] = n[t] + r \cdot n[t] \cdot (1 - \frac{n[t]}{K})$$
+>   $$n[t+1] = n[t] + r \cdot n[t] \cdot (1 - \frac{n[t]}{K})$$
 >
 > where n(t) is the population size at time t, r is the net per capita growth
 > rate, and K is the carrying capacity of the dish/woods.
@@ -275,6 +275,7 @@ a.<tab>
 
 
 > ### Solution: logistic growth
+>
 >     r = 0.6
 >     K = 100
 >     n0 = 10
