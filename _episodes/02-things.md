@@ -1,6 +1,6 @@
 ---
 title: "Individual things"
-teaching: 5
+teaching: 10
 exercises: 5
 questions:
 - "What are some things in Python?"

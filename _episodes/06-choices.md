@@ -1,6 +1,6 @@
 ---
-title: "Making hoices"
-teaching: 5
+title: "Making choices"
+teaching: 10
 exercises: 5
 questions:
 - "How can we select operations to execute, depending on the situation?"

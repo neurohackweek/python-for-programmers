@@ -1,6 +1,6 @@
 ---
 title: "Collections: groups of things"
-teaching: 5
+teaching: 10
 exercises: 5
 questions:
 - "What are collections of things?"

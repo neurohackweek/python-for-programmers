@@ -1,6 +1,6 @@
 ---
 title: "Creating reusable chunks with functions"
-teaching: 5
+teaching: 10
 exercises: 5
 questions:
 - "How can we avoid repeating ourselves?"
