@@ -6,9 +6,10 @@ questions:
 - "How can we avoid repeating ourselves?"
 objectives:
 - "Define a function to perform a computation and reuse it"
+- "Create a module that can be imported into data analysis notebooks"
 keypoints:
 - "Writing functions allows us to modularize our code and reuse it"
-- "DRY -- Don't repeat yourself "
+- "DRY -- Don't repeat yourself"
 ---
 
 One way to write a program is to simply string together commands, like the ones
