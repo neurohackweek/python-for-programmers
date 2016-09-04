@@ -268,3 +268,19 @@ a.<tab>
 >
 > 2. Figure out how to test whether `n2` is an integer (a mathematical integer, not necessarily whether it is an integer type) (HINT: look at the methods of `n2` by typing `n2.` and pressing tab.)
 {: .challenge}
+
+
+> ### Solution: logistic growth
+>     r = 0.6
+>     K = 100
+>     n0 = 10
+>
+>     n1 = (n0 + r*n0*(1 - n0/K))
+>     n2 = (n1 + r*n1*(1 - n1/K))
+>
+>     print(n0, n1, n2)
+>     print(type(n2))
+>
+>     print('n2 more than 20: ', n2 > 20)
+>     print('n2 is an integer: ', n2.is_integer())
+{: .solution}
