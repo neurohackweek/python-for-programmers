@@ -142,7 +142,7 @@ ax6.semilogx(x, y)
 Matplotlib also makes it easy to plot images. For this, you can use the plot
 method imshow (syntax borrowed from Matlab).
 
-For this, you can download some data from [here](). Unzip the folder in the directory in which you are currently working. Then:
+For this, you can download some data from [here](https://github.com/neurohackweek/python-for-programmers/blob/gh-pages/data/brain.zip?raw=true). Unzip the folder in the directory in which you are currently working. Then:
 
 ~~~
 # Read an image file for first subplot, generate random array for second
