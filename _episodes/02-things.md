@@ -6,8 +6,12 @@ questions:
 - "What are some things in Python?"
 objectives:
 - "Assign variables in Python"
+- "Perform calculations using operators, function and methods"
 keypoints:
 - "Variables are labels attached to values that are stored in the computer memory"
+- "You can perform operations on variables using operators and functions"
+- "Objects have functions attached to them -- methods"
+
 ---
 
 The most basic component of any programming language are "things", also called
@@ -101,8 +105,8 @@ combination of a string (our variable `s2`) and an integer (the number 3).
 > Division with integers would generate what some might consider surprising
 > results on Python 2. For example, these two:
 >
->    print(2 / 3)
->    print(2 / 3.0)   
+>     print(2 / 3)
+>     print(2 / 3.0)
 >
 > will give you different results if you are using Python 2. That's because
 > Python distinguishes between integers (3) and floating point numbers and
