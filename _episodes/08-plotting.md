@@ -1,6 +1,6 @@
 ---
 title: "Plotting with Matplotlib"
-teaching: 10
+teaching: 5
 exercises: 5
 questions:
 - "How can we visualize data?"
