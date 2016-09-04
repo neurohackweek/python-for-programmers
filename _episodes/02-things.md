@@ -245,26 +245,25 @@ a.<tab>
 > will calculate the logistic growth of a population of bacteria in a petri
 > dish (or bears in the woods, if you prefer).
 >
-> As a reminder, a commonly used discrete time equation for logistic population
-> growth is
+> A commonly used discrete time equation for logistic population growth is:
 >
-> $n[t+1] = n[t] + r \cdot n[t] \cdot (1 - \frac{n[t]}{K})$
+>    $$n[t+1] = n[t] + r \cdot n[t] \cdot (1 - \frac{n[t]}{K})$$
 >
 > where n(t) is the population size at time t, r is the net per capita growth
 > rate, and K is the carrying capacity of the dish/woods.
 >
 > To get started, write Python expressions that do the following:
-> 1. Create variables for `r`, `K`, and `n0`, setting these equal to 0.6, 100,
->     and 10, respectively.
-> 1. Create the variable `n1` and calculate it's value. Do the same for `n2`.
-> 1. Check the type of `n2` - what is it?
-> 1. Modify your calculations for `n1` and `n2` so that these values are
->    rounded to the nearest integer.
+>
+>  1. Create variables for `r`, `K`, and `n0`, setting these equal to 0.6, 100, and 10, respectively.
+>
+> 2. Create the variable `n1` and calculate it's value. Do the same for `n2`.
+>
+> 3. Check the type of `n2` - what is it?
+>
+> 4. Modify your calculations for `n1` and `n2` so that these values are rounded to the nearest integer.
 >
 > __Bonus__
 >
-> 1. Test whether `n2` is larger than 20, and print out "n2 more than 20: "
->    followed by the answer (either True or False).
-> 1. Figure out how to test whether `n2` is an integer (a mathematical integer,
-> not necessarily whether it is an integer type) (HINT: look at the methods of
-> `n2` by typing `n2.` and pressing tab.)
+> 1. Test whether `n2` is larger than 20, and print out "n2 more than 20: " followed by the answer (either True or False).
+>
+> 2. Figure out how to test whether `n2` is an integer (a mathematical integer, not necessarily whether it is an integer type) (HINT: look at the methods of `n2` by typing `n2.` and pressing tab.)
