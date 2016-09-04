@@ -19,5 +19,4 @@ The materials are based on a tour through the 7 elements that [every programming
 6.	Ways to create chunks (functions, objects/classes, modules)
 7.	Ways to combine chunks (function composition)
 
-This lesson template is based on the lesson template used in [Data Carpentry]({{ site.dc_site }})
-and [Software Carpentry]({{ site.swc_site }}) workshops,
+This lesson template is based on the lesson template used in [Data Carpentry]({{ site.dc_site }}) and [Software Carpentry]({{ site.swc_site }}) workshops,
